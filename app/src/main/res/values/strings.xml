@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EyeSubway</string>
+    <string name="title_activity_tracking">Map</string>
+    <string name="google_maps_key">AIzaSyDfpG4_ztJWbYOTiN1zEHjARHUZTznmZ0E</string>
+</resources>
