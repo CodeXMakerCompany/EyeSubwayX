@@ -6,7 +6,23 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tracking">
+    tools:context="Tracking">
+
+    <TextView
+        android:id="@+id/latitud"
+        android:text="Latitud"
+        android:layout_width="920px"
+        android:layout_height="160px"
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:background="#9900cc"
+        android:padding="20dp"
+        android:shadowColor="#39004d"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,11 +47,10 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="45dp"
         android:clickable="true"
-
         app:backgroundTint="@color/colorAccent"
         app:borderWidth="2dp"
-        />
-    <!--<editor-fold desc="Description">-->
-    android:src="@android:drawable/ic_menu_compass"
-    <!--</editor-fold>-->
+        android:src="@drawable/chibilogo"
+        android:textAlignment="center"
+        android:scaleType="center"/>
+
 </fragment>
